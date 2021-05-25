@@ -1,0 +1,14 @@
+jupyterlab
+numpy
+scipy
+pandas
+matplotlib
+japanize_matplotlib
+seaborn
+pillow
+scikit_learn
+h5py==2.10.0
+tensorflow==1.9.0
+keras==2.2.4
+opencv-python
+tqdm

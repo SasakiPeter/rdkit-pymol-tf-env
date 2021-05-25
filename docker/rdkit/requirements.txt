@@ -1,0 +1,7 @@
+pandas
+mordred
+pillow
+pubchempy
+jupyterlab
+wrapt_timeout_decorator
+joblib

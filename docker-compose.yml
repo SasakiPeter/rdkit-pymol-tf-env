@@ -1,0 +1,22 @@
+version: "3"
+services:
+  rdkit:
+    build: ./docker/rdkit
+    volumes:
+      - ./:/code
+    working_dir: /code
+    tty: true
+  pymol:
+    build: ./docker/pymol
+    volumes:
+      - ./:/code
+    working_dir: /code
+    tty: true
+  tf:
+    build: ./docker/tf
+    volumes:
+      - ./:/code
+    working_dir: /code
+    ports:
+      - 8888:8888
+    command: jupyter lab --ip=0.0.0.0 --port 8888 --allow-root --no-browser
